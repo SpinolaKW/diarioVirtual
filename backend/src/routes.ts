@@ -7,11 +7,11 @@ import {deleteUser} from "./controller/UserController";
 
 const routes = Router()
 
-routes.get('/inicio', getUsers)
-routes.post('/inicio', saveUser)
-routes.get('/inicio/:id', getUser)
-routes.put('/inicio/:id', updateUser)
-routes.delete('/inicio/:id', deleteUser)
+routes.get('/diario', getUsers)
+routes.post('/diario', saveUser)
+routes.get('/diario/:id', getUser)
+routes.put('/diario/:id', updateUser)
+routes.delete('/diario/:id', deleteUser)
 
 
 
